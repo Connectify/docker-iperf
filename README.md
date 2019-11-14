@@ -2,9 +2,7 @@
 
 ## Supported tags and respective Dockerfile links
 
-* 2.0 [(2.0/Dockerfile)](https://github.com/moutten/docker-iperf/blob/master/2.0/Dockerfile) [![](https://images.microbadger.com/badges/image/moutten/iperf:2.0.svg)](https://microbadger.com/images/moutten/iperf:2.0 "Get your own image badge on microbadger.com")
-* 3.0 [(3.0/Dockerfile)](https://github.com/moutten/docker-iperf/blob/master/3.0/Dockerfile) [![](https://images.microbadger.com/badges/image/moutten/iperf:3.0.svg)](https://microbadger.com/images/moutten/iperf:3.0 "Get your own image badge on microbadger.com") 
-* 3.1, latest [(3.1/Dockerfile)](https://github.com/moutten/docker-iperf/blob/master/3.1/Dockerfile) [![](https://images.microbadger.com/badges/image/moutten/iperf:3.1.svg)](https://microbadger.com/images/moutten/iperf:3.1 "Get your own image badge on microbadger.com")
+* 3.7, latest [(Dockerfile)](https://github.com/moutten/docker-iperf/blob/master/Dockerfile)
 
 This is a docker image to run the [iperf commandline tool](https://iperf.fr/)
 for benchmarking network performance.
@@ -15,8 +13,8 @@ If you want to build the docker container image yourself you can do so with the
 following commands:
 
 ```bash
-$ git clone git@github.com:moutten/docker-iperf.git
-$ cd docker-iperf/3.1
+$ git clone git@github.com:bprodoehl/docker-iperf.git
+$ cd docker-iperf
 $ docker build -t iperf .
 ```
 
@@ -26,7 +24,7 @@ If you just want to obtain the image from the docker registry, you can use the
 following command:
 
 ```bash
-$ docker pull moutten/iperf
+$ docker pull bprodoehl/iperf
 ```
 
 ### Running the image
