@@ -13,7 +13,7 @@ If you want to build the docker container image yourself you can do so with the
 following commands:
 
 ```bash
-$ git clone git@github.com:bprodoehl/docker-iperf.git
+$ git clone git@github.com:connectify/docker-iperf.git
 $ cd docker-iperf
 $ docker build -t iperf .
 ```
@@ -24,7 +24,7 @@ If you just want to obtain the image from the docker registry, you can use the
 following command:
 
 ```bash
-$ docker pull bprodoehl/iperf
+$ docker pull connectify/iperf
 ```
 
 ### Running the image
